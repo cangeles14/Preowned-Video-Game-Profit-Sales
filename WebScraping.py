@@ -40,7 +40,7 @@ def link_acquisition():
     # add Genre web link to df
     df['Web'] = genre_web_page_flat
     # Export database to mysql
-    engine = create_engine('mysql+pymysql://root:chris1114@localhost/Game')
+    engine = create_engine('mysql+pymysql://root:{}')
     df.to_sql(name='Genre', con=engine, if_exists = 'append')
     return df
 
@@ -88,14 +88,14 @@ def data_wrangling(Game_df):
     # Reset index if needed, inplace =save and drop = drops old index
     Game_df.reset_index(inplace=True, drop=True)
     # Import to mysql database
-    engine = create_engine('mysql+pymysql://root:chris1114@localhost/Game')
+    engine = create_engine('mysql+pymysql://root:{}')
     Game_df.to_sql(name='Game', con=engine, if_exists = 'append')
     # save to csv
     Game_df.to_csv('Game_df.csv', sep=' ', index=False)
 
 def analysis():
     # Read database from MySQL
-    engine = create_engine('mysql+pymysql://root:chris1114@localhost/Game')
+    engine = create_engine('mysql+pymysql://root:{}')
     # Select avg New/Preowned Sale price for each genre
     data = pd.read_sql_query('SELECT avg(New_Price) as New, avg(Preowned_Price) as Preowned, Genre FROM Game GROUP BY Genre;', engine)
     # Find difference between new and preowned sale price/new price per genre
