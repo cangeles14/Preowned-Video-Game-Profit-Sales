@@ -25,12 +25,17 @@ There are two major techniqes used in web scraping. Using HTML to target web pag
 
 BeautifulSoup will get the URL and the element tags of that web page, and extract the elements you specify. Using this, I am able to collect sale prices for each video game per genre of video games.
 
-By creating function that can loop through all the URls for each genre, I am able to create a dataset of game titles, and sale prices for each genre.
+By creating function that can loop through all the URls for each genre webapge and save them, I am able to create a dataset with just the URLs of websites I want to scrape. This will allow me to loop through the webpages and collect the data thats associated with each genre, rather than all the game titles at once.
+
+![URLs](https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/urls.png)
+
+Next is to scrape the URL contents for the game titles, and various data associated with each title; new price, preowned price, or the console its on. I then created a dataset with each titles per genre
+
 
 
 ## Cleaning The Data
 
-
+Cleaning data is one of the most important factors to accuratly analyzing and describing your data. In this case, some data was cleaned before it was stored into the dataset, allowing for little cleaning after creating the dataset.
 
 ## Creating the Dataset
 
