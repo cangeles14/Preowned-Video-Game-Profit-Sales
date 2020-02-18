@@ -27,6 +27,9 @@ BeautifulSoup will get the URL and the element tags of that web page, and extrac
 
 By creating function that can loop through all the URls for each genre, I am able to create a dataset of game titles, and sale prices for each genre.
 
+![URLs](https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/urls.png)
+
+
 
 ## Cleaning The Data
 
