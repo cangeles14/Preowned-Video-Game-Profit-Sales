@@ -9,16 +9,23 @@ Web scraping is the process of automatically extracting data from websites and s
 
 ## Purpose
 
-In this project I will create a pipeline that will web scrap a video game sales website using Python, Pandas, and BeautifulSoup. I will collect the data recieved and create a dataset utilizing Pandas and Python, and MySQL. 
+In this project I will create a pipeline that will web scrap a video game sales website using Python, Pandas, and BeautifulSoup. I will collect the data recieved and create a dataset utilizing Pandas and Python, and MySQL. Using this dataset, I will make a general analysis on the data collected. And finally, report this dataset analysis using visuals made in python and with matplotlib library. 
 
 ## Getting Started
 
 Finding a website to scrape - in this case I used an online market for video games
+
 - [Game.co.uk](https://game.co.uk)
+
+
 
 ## Examining The Website 
 
-Import needed libaries
+There are two major techniqes used in web scraping. Using HTML to target web page tags, or using an API to extract data. In this case, I will use HTML tags and BeautifulSoup library to target key web page tags, and retrieve the speceific information.
+
+BeautifulSoup will get the URL and the element tags of that web page, and extract the elements you specify. Using this, I am able to collect sale prices for each video game per genre of video games.
+
+By creating function that can loop through all the URls for each genre, I am able to create a dataset of game titles, and sale prices for each genre.
 
 
 ## Cleaning The Data
