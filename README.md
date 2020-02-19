@@ -37,7 +37,7 @@ Next is to scrape the URL contents for the game titles, and various data associa
 
 Cleaning data is one of the most important factors to accuratly analyzing and describing your data. In this case, some data was cleaned before it was stored into the dataset, allowing for little cleaning after creating the dataset.
 
-![Data Cleaning](https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/datacleaning.png)
+<img src="https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/datacleaning.png" width="50%" height="50%">
 
 We can also save the our dataset into MySQL for future queries.
 
@@ -45,10 +45,13 @@ We can also save the our dataset into MySQL for future queries.
 
 MySQL is a powerful tool to analyze datasets. Here I will show a simple query to take a look at my dataset. Exploration of data is important for determining what insights you can extract from your dataset.
 
-![MySQL Query](https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/MySQL%20Genre%20Avg%20Prices.png)
-
+<img src="https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/MySQL%20Genre%20Avg%20Prices.png" width="50%" height="50%">
 
 ## Analysing Data with Tableau / MatPlotLib
+
+Next I will transform the information found in the dataset into  powerful visuals that will help me explain the information I found. Here I will demonstate both the application Tableau and MatPlotLib library in Python. 
+
+
 
 ## Storytelling of Data in a Presentation
 
