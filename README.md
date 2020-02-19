@@ -47,9 +47,11 @@ MySQL is a powerful tool to analyze datasets. Here I will show a simple query to
 
 <img src="https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/MySQL%20Genre%20Avg%20Prices.png" width="50%" height="50%">
 
-## Analysing Data with Tableau / MatPlotLib
+## Analysing Data with MatPlotLib
 
-Next I will transform the information found in the dataset into  powerful visuals that will help me explain the information I found. Here I will demonstate both the application Tableau and MatPlotLib library in Python. 
+Next I will transform the information found in the dataset into  powerful visuals that will help me explain the information I found. Here I will demonstate this using MatPlotLib library in Python. 
+
+
 
 
 
