@@ -51,11 +51,16 @@ MySQL is a powerful tool to analyze datasets. Here I will show a simple query to
 
 Next I will transform the information found in the dataset into  powerful visuals that will help me explain the information I found. Here I will demonstate this using MatPlotLib library in Python. 
 
-
-
+<img src="https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/MatPlotLib.png" width="50%" height="50%">
 
 
 ## Storytelling of Data in a Presentation
+
+For this project, Ironhack tasked me in presenting my project in a real life senario to simulate the process of collecting, cleaning, and presenting my analysis. For this project I assume my client was a French Video Game Shop looking to increase their inventory in pre-owned games. They wanted to know which titles they should purchase as pre-owned to resell at their shop with the most profit.
+
+To do this I collected data, and found which titles sell higher than new titles, thus profitting more for selling a particular pre-owned title.
+
+
 
 ## Conclusions
 
