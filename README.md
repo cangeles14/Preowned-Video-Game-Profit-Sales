@@ -60,7 +60,9 @@ For this project, Ironhack tasked me in presenting my project in a real life sen
 
 To do this I collected data, and found which titles sell higher than new titles, thus profitting more for selling a particular pre-owned title.
 
+The presentation is as a powerpoint below.
 
+<img src="http://g.recordit.co/lDme5PjuLc.gif" width="50%" height="75%">
 
 ## Conclusions
 
