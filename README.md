@@ -31,17 +31,29 @@ By creating function that can loop through all the URls for each genre webapge a
 
 Next is to scrape the URL contents for the game titles, and various data associated with each title; new price, preowned price, or the console its on. I then created a dataset with each titles per genre
 
+![Dataset](https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/dataset.png)
 
-
-## Cleaning The Data
+## Cleaning The Data & Creating the Dataset
 
 Cleaning data is one of the most important factors to accuratly analyzing and describing your data. In this case, some data was cleaned before it was stored into the dataset, allowing for little cleaning after creating the dataset.
 
-## Creating the Dataset
+<img src="https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/datacleaning.png" width="50%" height="50%">
+
+We can also save the our dataset into MySQL for future queries.
+
+## Analysing Data with MySQL
+
+MySQL is a powerful tool to analyze datasets. Here I will show a simple query to take a look at my dataset. Exploration of data is important for determining what insights you can extract from your dataset.
+
+<img src="https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/MySQL%20Genre%20Avg%20Prices.png" width="50%" height="50%">
+
+## Analysing Data with MatPlotLib
+
+Next I will transform the information found in the dataset into  powerful visuals that will help me explain the information I found. Here I will demonstate this using MatPlotLib library in Python. 
 
 
 
-## Analysing Data with Tableau / MatPlotLib
+
 
 ## Storytelling of Data in a Presentation
 
@@ -52,6 +64,7 @@ Cleaning data is one of the most important factors to accuratly analyzing and de
 
 * [Python](https://docs.python.org/3/) - The programming language used
 * [Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) - library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language
+* [MySQL](https://www.mysql.com/) -  MySQL is an open-source relational database management system for SQL
 * [Tableau](https://www.tableau.com/) - Popular Data visualization tool
 * [MatPlotLib](https://matplotlib.org/contents.html) - Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Python library for pulling data out of HTML and XML files
