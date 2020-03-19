@@ -64,9 +64,6 @@ The presentation is as a powerpoint below.
 
 <img src="http://g.recordit.co/lDme5PjuLc.gif" width="50%" height="75%">
 
-## Conclusions
-
-
 ## Built With
 
 * [Python](https://docs.python.org/3/) - The programming language used
