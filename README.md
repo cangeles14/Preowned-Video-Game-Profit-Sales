@@ -1,4 +1,4 @@
-# Data/Web Scraping Project @ Ironhack Paris
+# Web Scraping Game.co.uk for Preowned Video Game Profit Sales
 
 Web scraping is the process of automatically extracting data from websites and saving that data collected into a dataset allowing you to use that data to extract information. It’s one of the most efficient ways to get data from the web. Some practices inlcude 
 
@@ -16,8 +16,6 @@ In this project I will create a pipeline that will web scrap a video game sales 
 Finding a website to scrape - in this case I used an online market for video games
 
 - [Game.co.uk](https://game.co.uk)
-
-
 
 ## Examining The Website 
 
@@ -52,7 +50,6 @@ MySQL is a powerful tool to analyze datasets. Here I will show a simple query to
 Next I will transform the information found in the dataset into  powerful visuals that will help me explain the information I found. Here I will demonstate this using MatPlotLib library in Python. 
 
 <img src="https://github.com/cangeles14/VideoGameSalesWebScrapping/blob/master/Images/MatPlotLib.png" width="50%" height="50%">
-
 
 ## Storytelling of Data in a Presentation
 
